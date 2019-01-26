@@ -214,7 +214,7 @@ Apply the Flannel driver on the master:
 
 **USE THIS INSTEAD**
 ```
-kubectl -n kube-system apply -f https://raw.githubusercontent.com/coreos/flannel/bc79dd1505b0c8681ece4de4c0d86c5cd2643275/Documentation/kube-flannel.yml
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 ```
 
 There's a bug with this [see here](https://github.com/kubernetes/kubernetes/issues/48798#issuecomment-427454190)
